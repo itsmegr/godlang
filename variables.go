@@ -5,6 +5,8 @@ import (
 	"strconv"
 )
 
+//every declared variable has 0 value by default
+
 /*
 on package level, variables can not be declared by : syntax
 only way is default
