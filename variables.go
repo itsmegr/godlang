@@ -53,3 +53,9 @@ func main(){
 	//variable name length should be propotional to its life span, good practice
 
 }
+
+/*
+851  go install ./variables.go
+852  go run ./variables.go
+853  go build ./variables.go
+*/
