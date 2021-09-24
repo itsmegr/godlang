@@ -73,6 +73,5 @@ func main() {
 			//here goes the body
 			//and i want this to show now
 		}
-		
 	*/
 }
