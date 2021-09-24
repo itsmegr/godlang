@@ -70,7 +70,6 @@ func main() {
 	/*
 		greeter is a struct
 		func (localName TypeOfObject) funcName(params){
-
 		}
 		
 	*/
