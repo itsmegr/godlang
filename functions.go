@@ -71,6 +71,7 @@ func main() {
 		greeter is a struct
 		func (localName TypeOfObject) funcName(params){
 			//here goes the body
+			//and i want this to show now
 		}
 		
 	*/
