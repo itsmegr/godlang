@@ -10,8 +10,7 @@ implemetation is different
 */
 
 //defining interfaces --> will have only functions and these functions are later
-//can be associated with wny type
-
+//can be associated with any type
 type classOps interface {
 	pass() int
 	fail() int
@@ -45,9 +44,7 @@ func main(){
 	fmt.Println(std1.curClass)
 
 	//we can also compose more than 1 interfaces and make 1 from them
-
 	//type conversion
-
 	//converting from interface to its type
 	var std2 *student = op1.(*student)
 	//now this std2 has access to all members and methods too
