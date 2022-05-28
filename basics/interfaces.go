@@ -5,8 +5,8 @@ import (
 )
 
 /*
-interfaces in Go --> concept wise they are same as java
-implemetation is different
+	interfaces in Go --> concept wise they are same as java
+	implemetation is different
 */
 
 //defining interfaces --> will have only functions and these functions are later
@@ -38,6 +38,7 @@ func main(){
 	//here the main thing comes, we implemented pass/fail with type student also
 	std1 := student{5};
 	std1.pass()
+	
 	//now we can assign student type to std1
 	var op1 classOps = &std1
 	fmt.Println(op1.pass())

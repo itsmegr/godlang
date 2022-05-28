@@ -23,6 +23,24 @@ type Student struct {
 	clg string
 }
 
+type CommandLineArg struct {
+	name string
+	rn int
+}
+
+
+/*
+var ident type  = type {
+
+}
+
+type Name sturct {
+
+}
+
+map[type1]type2
+*/
+
 
 func main(){
 	//maps :- key valur pair, just same like c++
@@ -46,7 +64,6 @@ func main(){
 
 
 	//STRUCT
-
 	std1 := Student{
 		name : "govind",
 		rn  : 12,
@@ -55,8 +72,8 @@ func main(){
 
 
 	fmt.Println(std1.name);
+	
 	//creating copy duplicates
-
 	std2 := struct{name string; rn int}{
 		name : "govinf2",
 		rn :10,
